@@ -1,0 +1,6 @@
+virustotal.: acdd910ce209457ac926ee3a3dafedd49b3807ba3ca7677c1234605131e4beb4
+
+
+
+running---> python app.py
+copy url ---> http://127.0.0.1:5000
