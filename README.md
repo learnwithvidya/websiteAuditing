@@ -1,2 +1,2 @@
 # websiteAuditing
-A webpage that finds the vulnerabilities in the given website.
+A webpage that finds the vulnerabilities of any website.
