@@ -8,7 +8,8 @@ import os
 app = Flask(__name__)
 
 # --- VirusTotal settings ---
-VT_API_KEY = "acdd910ce209457ac926ee3a3dafedd49b3807ba3ca7677c1234605131e4beb4"  # <-- REPLACE with your own API key
+VT_API_KEY = os.environ.get("VT_API_KEY")
+# <-- REPLACE with your own API key
 VT_URL = "https://www.virustotal.com/api/v3/urls"
 
 def check_ssl(domain):
